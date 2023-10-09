@@ -1,0 +1,18 @@
+.Signin form label {
+  color: var(--black-color);
+  font-weight: var(--font-semi);
+  margin-bottom: 6px !important;
+}
+
+.Signin form .input_div input {
+  padding: 0.5rem 0.6rem;
+  color: var(--black-color);
+  font-size: var(--font-regular);
+  font-weight: var(--font-medium);
+  border: 1px solid #ddd;
+  border-radius: 0;
+}
+.Signin input:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}

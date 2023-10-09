@@ -1,0 +1,12 @@
+.card-box {
+  background: url('../../../public/images/banner-card.png') no-repeat
+    center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  min-height: 30vh;
+}
+.card-box h2 {
+  color: var(--white-color);
+}

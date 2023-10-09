@@ -1,0 +1,27 @@
+.F-card {
+}
+.F-card .desc {
+  flex: 2;
+}
+.F-card .desc h5 {
+}
+.F-card .desc p {
+}
+.F-card .desc span {
+}
+
+.F-card .image {
+  flex: 1;
+  flex-shrink: 0 !important;
+}
+.F-card .image img {
+  max-width: 95px;
+  max-height: 55px;
+  width: 100%;
+  object-fit: contain;
+
+  object-fit: cover;
+}
+.F-card .image button {
+  min-width: 90px;
+}

@@ -1,0 +1,9 @@
+.items h4,
+.icon {
+  color: var(--orange-color);
+}
+
+.price {
+  color: var(--black-color);
+  font-weight: var(--fw-bold);
+}

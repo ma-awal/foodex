@@ -1,0 +1,18 @@
+.navbar-brand {
+  font-size: 28px !important;
+  font-weight: 700;
+  box-sizing: border-box;
+
+  background: linear-gradient(to right, tomato, orange);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: lowercase !important;
+}
+button .bar {
+  color: tomato;
+}
+
+.User {
+  color: var(--orange-color);
+}
