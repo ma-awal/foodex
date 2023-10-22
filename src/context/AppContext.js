@@ -1,26 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { createContext } from 'react';
-import axios from 'axios';
+import data from '../data/data.js';
 const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
-  const [food, setFood] = useState({});
+  const [food, setFood] = useState(data);
   const [cart, setCart] = useState([]);
   const [show, setShow] = useState(false);
   const [cartItemCount, setCartItemCount] = useState(0);
-
-  const getData = async () => {
-    try {
-      const response = await axios.get('http://localhost:3001/foods');
-      setFood(response.data);
-    } catch (error) {
-      console.log(error.message);
-    }
-  };
-
-  useEffect(() => {
-    getData();
-  }, []);
 
   const addToCart = (item) => {
     setCart([...cart, item]);

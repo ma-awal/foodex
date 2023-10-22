@@ -34,7 +34,7 @@ const Header = () => {
         <BiSolidUser
           className=" User fs-5  "
           onClick={() => navigate('/login')}
-        />{' '}
+        />
         Login
       </button>
     </Navbar>
