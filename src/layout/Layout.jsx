@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 const Layout = () => {
   return (
-    <div className="d-flex flex-column justify-content-between min-vh-100">
+    <div className="   ">
       <Navbar />
       <Outlet />
       <Footer />
